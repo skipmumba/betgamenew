@@ -1,0 +1,324 @@
+#wrap-all
+{
+	background:#0F0F0F;
+}
+body
+{
+	font-family: 'Prompt', sans-serif;
+
+}
+#wrap-menu-bar
+{
+	background: #1C1C1C;
+	margin-bottom: 20px;
+}
+.logo-nav,.nav-bar,.nav-point
+{
+	padding: 10px;
+	text-align: center;
+	height:100px;
+	line-height: 80px;
+}
+.nav-bar
+{
+	text-align: left;
+}
+.nav-point
+{
+	background: #252525;
+	font-size: 20px;
+	color:#FFF;
+}
+.logo-nav img
+{
+	width:80%;
+	height: 80%;
+}
+.nav-bar ul
+{
+	list-style: none;
+}
+.nav-bar li
+{
+	padding:5px 10px 5px 10px;
+
+	display: inline;
+	font-size: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.nav-bar a
+{
+	color:#FFF;
+}
+.nav-bar a:hover
+{
+	text-decoration: none;
+}
+.content
+{
+	margin:10px;
+}
+.sidebar
+{
+
+	margin:10px;
+}
+
+
+/*vs list home page*/
+
+.wrap-daily
+{
+	margin-bottom: 20px;
+	background:#2E2E2E;
+}
+.daily-ul
+{
+	text-align: center;
+	list-style: none;
+	margin: 0px;
+}
+.daily-li
+{
+	color:#FFF;
+	padding: 10px;
+	margin:5px 20px 5px 20px;
+	display: inline-block;
+	font-size: 20px;
+}
+.selected-day
+{
+	background: green;
+	background: rgba(73, 18, 20, 0.7);
+	border-radius: 10px;
+}
+.wrap-per-game
+{
+	margin:0px 0px 25px 0px;
+}
+.block-subject-game-mode
+{
+	border-bottom: 3px solid #833594;
+	overflow: hidden;
+	background:#222222;
+	font-size: 20px;
+}
+.subject-cat
+{
+	background: #833594;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	color:#FFF;
+	float: left;
+	margin:0;
+	position: relative;
+}
+.subject-cat::after
+{
+	top:-10px;
+	right:-30px;
+	padding:0px!important;
+	position: absolute;
+    	content: "";
+    	border-style: solid;
+	border-width: 100px 0px 0px 30px;
+	border-color: transparent transparent transparent #833594;
+}
+.refresh-match-cat
+{
+	color:#FFF;
+	float:right;
+	padding: 20px;
+}
+.wrap-vs-block
+{
+	overflow: hidden;
+	border-bottom:2px solid #1C1C1C;
+	color:#FFF;
+	background:#2E2E2E;
+	position: relative;
+}
+.block-list-vs
+{
+	padding:5px;
+	height: 110px;
+	margin:5px;
+}
+.text-team-list
+{
+	transform: translateY(-50%);
+	top: 50%;
+	left:10px;
+	width: 50%;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	font-size: 15x;
+	text-align: center;
+	position: relative;
+	float:left;
+}
+.odds-per-team
+{
+	font-size: 17px;
+	font-weight: normal;
+}
+.choose-half-left,.choose-half-right
+{
+	width:50%;
+	height:120px;
+	position: absolute;
+	float: left;
+}
+.choose-half-left
+{
+	left:-9%;
+	background:#191E26;
+	position: absolute;
+}
+.choose-half-left::after
+{
+	position: absolute;
+	left:100%;
+	content: "";
+	border-style: solid;
+	border-width: 200px 100px 0 0;
+	border-color: #191E26 transparent transparent transparent;
+}
+.choose-half-right
+{
+	left:55%;
+	background:#191E26;
+}
+.choose-half-right::after
+{
+	position: absolute;
+	right:100%;
+	content: "";
+    	border-style: solid;
+	border-width: 0 0 200px 100px;
+	border-color: transparent transparent #191E26 transparent;
+}
+.team-selected
+{
+	border-radius: 10px;
+	/*background: rgba(255, 138, 0, 0.7);*/
+}
+.text-team-list span
+{
+	font-size: 20px;
+	font-weight:normal;
+}
+.img-team-list
+{
+	float:right;
+	height:100%;
+}
+.img-team-list img
+{
+	height: 100%;
+}
+.rightTeamText
+{
+	float:right;
+	left:-5px;
+}
+.rightTeamImg
+{
+	float:left;
+}
+.vs-in
+{
+	height: 100%;
+	text-align: center;
+	font-size: 20px;
+	width:100%;
+}
+.vs-in-again
+{
+	top:50%;
+	transform: translateY(-50%);
+	position: relative;
+}
+.vs-in-again span
+{
+	font-weight: normal;
+	font-size: 15px;
+}
+
+/*end vs list home page*/
+
+
+/*sidebar*/
+.block-general-sidebar
+{
+	background: #2E2E2E;
+	color:#FFF;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.subject-sidebar
+{
+	padding:10px;
+	font-size: 25px;
+}
+.team-choose
+{
+	font-size: 15px;
+	color:orange;
+}
+.team-choose span
+{
+	color:#FFF;
+	font-size: 12px;
+}
+.text-input-bet,.confirm-bet
+{
+	padding:10px;
+	height:60px;
+}
+.text-input-bet
+{
+	width:60%;
+	float:left;
+}
+.user-inputbet
+{
+	width:100%;
+}
+.confirm-bet
+{
+	width:40%;
+	float:right;
+}
+.table-name-team,.table-point-team
+{
+	border-bottom: 1px solid #95a5a6;
+	padding:5px;
+	font-size: 15px;
+	text-align: left;
+}
+.table-name-team
+{
+	width:60%;
+	float: left;
+	background: #FFF;
+	color: #000;
+}
+.table-point-team
+{
+	background: #191E26;
+	text-align: center;
+	width:40%;
+	float: right;
+}
+.subject-table
+{
+	border:none;
+	background:none;
+	font-size: 18px;
+	color:#FFF;
+}
+/*end sidebar*/
